@@ -10,6 +10,21 @@ conda create -p venv python=3.8 -y
 conda activate venv
 ```
 
+**To dactivate environment**
+```py
+conda deactivate
+```
+
+**To see all enviroments in system**
+```py
+conda env list
+```
+
+**To delete the environment**
+```py
+conda env remove --prefix "file path"
+```
+
 **To Install all nescessary libraries**
 ```py
 pip install -r requirements.txt
